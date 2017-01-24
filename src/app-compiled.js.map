@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.js"],"names":[],"mappings":";;AAAA;;;AAGA,SAAS,KAAT,CAAe,4BAAf","file":"app-compiled.js","sourcesContent":["/**\n * Created by davidzuluaga on 1/20/17.\n */\ndocument.write(\"Start implementing here...\");"]}
