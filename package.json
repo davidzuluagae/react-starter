@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dazu70/react_playaround.git"
+    "url": "git+https://github.com/dazu70/react-starter.git"
   },
   "author": "David Zuluaga",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dazu70/react_playaround/issues"
+    "url": "https://github.com/dazu70/rreact-starter/issues"
   },
-  "homepage": "https://github.com/dazu70/react_playaround#readme",
+  "homepage": "https://github.com/dazu70/react-starter#readme",
   "dependencies": {
     "babel-polyfill": "^6.22.0",
     "bootstrap": "^3.3.7",
