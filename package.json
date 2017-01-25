@@ -1,7 +1,7 @@
 {
-  "name": "react_playaround",
+  "name": "react-starter",
   "version": "1.0.0",
-  "description": "Putting together new technologies along with React.JS",
+  "description": "Boilerplate code template for starting a new project using React.",
   "main": "app.js",
   "scripts": {
     "start": "babel-node server/server.js",

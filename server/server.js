@@ -2,14 +2,15 @@ import express from 'express';
 import webpack from 'webpack';
 import path from 'path';
 import config from '../webpack.config.js';
-import devMiddleware from 'webpack-dev-middleware';
+import webpackDevMiddleware from 'webpack-dev-middleware';
 import open from 'open';
 
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
 
-app.use(devMiddleware(compiler, {
+app.use(webpackDevMiddleware(compiler, {
+    noInfo: config.noInfo,
     publicPath: config.output.publicPath
 }));
 

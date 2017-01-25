@@ -3,26 +3,23 @@ import path from 'path';
 export default {
     debug: true,
     devtool: 'inline-source-map',
-    noinfo: false,
+    noInfo: true,
     entry: path.resolve(__dirname, 'src/app'),
     target: 'web',
     output: {
         path: __dirname + "/dist",
-        publicPath: "/",
+        publicPath: "/assets/",
         filename: "bundle.js"
     },
     devserver: {
         contentServe: 'src'
     },
     module: {
-        rules: [
+        loaders: [
             {
                 test: /\.js$/,
                 include: path.join(__dirname, 'src'),
-                loaders: ['babel-loader'],
-                query: {
-                    presets: ['es2015']
-                }
+                loader: 'babel-loader'
             },
             {
                 test: /(\.css)$/,
